@@ -1,0 +1,21 @@
+1) tar : Create or extract archive files
+    Options:
+    * -c : Create a new archive
+    * -x : Extract files from an archive
+    * -f : Specify the archive file name
+    * -v : verbose mode
+    * -z : Compress the archive with gzip 
+    * -j : Compress the archive with bzip2
+    Example:  tar -czvf archive.tar.gz file/
+              Creates a compressed tar archive named "archive.tar.gz" containing the files in the "files/" dir
+
+2) gzip : Compress files
+    Options:
+      * -d : Decompress files
+    Example: gzip file.txt => compresses the file "file.txt" and renames it as "file.txt.gz".
+
+3) zip : create compressed zip archives
+    Options:
+      * -r : recursively include directories
+    Example: zip archive.zip file1.txt file2.txt 
+              creates a zip archive named "archive.zip" containing "file1.txt" and "file2.txt"
