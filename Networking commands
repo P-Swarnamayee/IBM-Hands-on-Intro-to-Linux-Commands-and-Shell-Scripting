@@ -1,0 +1,8 @@
+1) ifconfig - display network interface info
+2) ping - send ICMP echo requests to a host : ping google.com
+3) netstat - display n/w connections and stats : netstat -tuln (show all listening to TCP & UDP connections)
+4) ss - display n/w socket info : ss -tuln (show all listening to TCP and UDP connections)
+5) ssh - securely connect to a remore server : ssh user@hostname
+6) scp - securely copy files between hosts : scp file.txt user@hostname:/path/to/destination
+7) wget - download files from the web : wget http://example.com/file.txt
+8) curl - transfer data to or from a server : curl http://example.om
