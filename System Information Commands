@@ -1,0 +1,27 @@
+1) uname : print system information
+    Option: -a: all system info
+    Example: uname -a (Displays all sys info)
+
+2) whoami : Display current username
+
+3) df : Show disk usage
+    Option: -h (Human readable sizes)
+    Example: df -h
+
+4) du : Estimate file and dir sizes
+    Options:
+      -h : human readable size
+      -s : total size only
+    Example: du -sh dir1/ (Provides the total size of the specified dir)
+
+5) free : Display memory usage info 
+    Options: -h : human readable sizes
+    Example: free -h (Displays memory usage in human-readable format)
+
+6) uptime : show system uptime 
+
+7) lscpu : display CPU information
+
+8) lspci : list PCI devices
+
+9) lsusb : lists all the connected USB devices
