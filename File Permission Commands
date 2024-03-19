@@ -1,0 +1,19 @@
+1) chmod : change file permissions
+    Options:
+      - u : user/owner permissions
+      - g : group permissions
+      - o : other permissions
+      - + : add permissions
+      - - : remove permissions
+      - = : set permissions
+    Examples: chmod u+rwx file.txt => grants read, write and execute permissions to the owner of the file.
+
+2) chown : change file ownership
+    Example: chown user file.txt => changes the owner of file.txt to the specificed user
+
+3) chgrp : change group ownership  
+    Example: chgrp group file.txt => changes the group ownership of file.txt to the specified group.
+
+4) umask : set default file permissions
+    Example: umask 022 => sets the default file permissions to read and write for the owner and read-only
+              for the group and others.
