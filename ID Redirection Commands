@@ -1,0 +1,9 @@
+1) cmd < file             Input of cmd is taken from file
+2) cmd > file             Standard O/P (stdout) of cmd is redirected to file
+3) cmd 2 > fie            Error o/p (stderr) of cmd is redirected to file
+4) cmd 2 >&1              stderr is redirected to the same place as stdout
+5) cmd1 < (cmd2)          output of cmd2 is used as the input file for cmd1
+6) cmd> /dev/null         Discards the stdout of cmd by sending it to the null device
+7) cmd &> file            Every output of cmd is redirected to file
+8) cmd 1>& 2              stdout is redirected to the same place as stderr
+9) cmd >> file            Appends the stdout of cmd to file
