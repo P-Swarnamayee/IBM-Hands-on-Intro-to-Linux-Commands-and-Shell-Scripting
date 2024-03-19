@@ -1,0 +1,40 @@
+OVERVIEW OF LINUX ARCHITECTURE:
+5 layers:
+Layer - 1: User Interface (UI)
+    * Allows users to interact with the machine
+    * GUI
+    Tasks: 
+        - Using web browser to send an email      - Using a music player to listen to a song
+Layer - 2: Applications
+    * Any software that lets you perform a task
+    * Applications include:
+      - System tools    - Programming languages    - Shells    - User applications
+Layer - 3: Operating System
+    * Controls the jobs and programs vital to health and stability
+    * Functions include:
+      - Assigns software to users        
+      - Helps detect errors and prevent failures
+      - Performs file management tasks
+Layer - 4: Kernal   
+    * Perform vital opertions
+    * Lowest level software
+    * Starts on boot
+    * Bridge between hardware and apps
+    * Key jobs:
+        - Memory management        - Process management
+        -  Device drivers          - Security
+Layer - 5: Hardware
+    * Consists of all physical or electronic devices on your PC
+    * Hardware includes:
+        - CPU    - RAM    - Storage    - Screen    - USB devices
+
+LINUX FILE SYSTEM
+  * Collection of filees in your machine
+  * Begins at root directory (/)
+  * Tree like structure
+  * Assigns appropriate access rights 
+
+/ -> root directory
+Some special directories:
+/bin      /usr    /sbin    /etc    /dev    /proc    /var    /tmp
+/home    /boot    /media    /lib    /opt    /mnt    /srv
