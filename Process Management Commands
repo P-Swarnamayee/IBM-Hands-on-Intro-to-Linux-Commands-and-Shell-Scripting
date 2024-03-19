@@ -1,0 +1,37 @@
+1) ps : Display running processes
+    Options: -aus: Show all processes
+    Example: ps aux (Shows all running processes with detailed information)
+
+2) top : Monitor system processes in real time
+    Example: top (displays a dynamic view of system processes and their resource usage)
+
+3) kill : terminate a process 
+    Options: -9 : Forcefully kill a process
+    Example: kill PID (Terminates the process with the specified process ID)
+
+4) pkill : Terminate processes based on their name
+    Example: pkill process_name  (Terminates all processes with the specified name)
+
+5) pgrep : List processes based on their name  
+    Example: pgrep process_name (lists all processes with the specified name)
+
+6) grep : Used to search for specific patterns/ regular expressions in txt files/ streams & display matching lines
+    Options:
+      * -i : ignore case distinctions while searching
+      * -v : invert the match, displaying non-matcing lines
+      * -r/-R : Recursively search dirs for matching patterns
+      * -l : print only the names of files containing matches
+      * -n : display the line numbers alongside matching lines
+      * -w : Match whole words only rather than partial matches
+      * -c : count the no.of matching lines instead of displaying them
+      * -e : specify multiple patterns to search for
+      * -A : Display lines after the matching line
+      * -B : Display lines before the matching line
+      * -C : Display lines both before and after the matching line
+    Example:  
+        grep -i “hello” file.txt
+        grep -v “error” file.txt
+        grep -r “pattern” directory/
+        grep -l “keyword” file.txt
+        grep -n “pattern” file.txt
+In these examples we are extracting our desirec output from filename (file.txt)
