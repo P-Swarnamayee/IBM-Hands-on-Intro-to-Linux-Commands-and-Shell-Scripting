@@ -1,0 +1,63 @@
+Operting System:
+    - Manages Hardware and Resources
+    - Allows interaction with hardware
+UNIX (Family of OS)
+Popular UNIX based OS:
+  Oracle Solaris, FreeBSD, HP-UX, IBM AIX, Apple MAC OS
+UNIX Beginning:
+1960 -- Original UNIX OS created
+1970 -- UNIX rewritten in C
+Late 1970 -- BSD Developed
+
+LINUX (Family of UNIX-like OS) - Free, open-source UNIX OS
+Features:
+    - Free and open source
+    - Secure
+    - Multi-user
+    - Multitasking
+    - Portability
+LINUX Beginnings
+1980 -- GNU developed
+1991 -- LINUX kernel
+1992 -- LINUX OS born via GNU + LINUX kernel
+1996 -- Tux
+LINUX - Usecases: Android, Supercomputers, Data centers and Cloud services, IoT
+
+LINUX distro differences can be identified using:
+  - System utilities          - GUI (Graphical User Interface)
+  - Shell commands
+Support types:
+  - Community vs Enterprise        - Longterm support (LTS) vs Rolling release
+LINUX DISTROS
+1) DEBIAN: 
+   1993 - First release - (0.01)
+   1996 - First stable release - (1.1)
+  * Stable, reliable, fully open source
+  * Supports many computer architectures
+  * Largest community-run distro
+2) UBUNTU:
+   2004 - First release - (4.10)
+  * Debian-based
+  * Developed and managed by Canonical
+  * 3 editions: Ubuntu Desktop || Ubuntu Server || Ubuntu Core
+3) REDHAT LINUX:
+  It is a core linux distro
+  * Stable, reliable, fully open source
+  * Managed by red hat linux
+  * Red Hat Enterprise Linux (RHEL)
+4) FEDORA:
+   Stable operating system
+  * Supports many architectures
+  * Very reliable and secure  
+  * Actively developed, large community
+  * Sponsored by Red Hat
+5) SUSE Enterprise:
+   SUSE Linux Enterprise (SLE) is available in 2 editions:
+    - Server (SLES)          - Desktop (SLED)
+  * Supports many architectures
+  * Maintained by SUSE package Hub
+6) ARCH LINUX:
+   Do-it-yourself approach
+  * Highly configurable
+  * Requires strong understanding of Linux and system tools
+  * Leading-edge software
