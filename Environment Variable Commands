@@ -1,0 +1,7 @@
+1) export VARIABLE_NAME = value (Sets the value of an environment variable)
+2) echo $VARIABLE_NAME (Displays the value of a specific environment variable)
+3) env (Lists all env vars currently set in the system)
+4) unset VARIABLE_NAME (Unsets or removes an env var)
+5) export -p (Shows a list of all currently exported env vars)
+6) env VAR1 = value COMMAND (sets the value of an env var for a specific command)
+7) printenv (Displays the values of all env vars)
