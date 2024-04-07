@@ -1,0 +1,13 @@
+#! /bin/bash
+# print the current date time
+date
+# print the disk free statistics
+df -h
+
+in terminal:
+crontab -e
+crontab -l
+chmod u+x diskusage.sh
+0 21 * * * echo "Welcome to cron" >> /tmp/echo.txt
+0 0 * * * /home/project/diskusage.sh >>/home/project/diskusage.log
+crontab -l
